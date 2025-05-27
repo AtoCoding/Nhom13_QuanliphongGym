@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhongGym3Lop", "PhongGym3Lop\PhongGym3Lop.csproj", "{A92B65C0-8617-40CD-B42C-B454DB6FD5D3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{51805F2C-EECF-47ED-B549-8E5E8E25655D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A92B65C0-8617-40CD-B42C-B454DB6FD5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92B65C0-8617-40CD-B42C-B454DB6FD5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92B65C0-8617-40CD-B42C-B454DB6FD5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92B65C0-8617-40CD-B42C-B454DB6FD5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51805F2C-EECF-47ED-B549-8E5E8E25655D}.Debug|Any CPU.ActiveCfg = Debug
+		{51805F2C-EECF-47ED-B549-8E5E8E25655D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEC2CCFD-C9C7-4A06-9C95-816FDA82BC38}
+	EndGlobalSection
+EndGlobal

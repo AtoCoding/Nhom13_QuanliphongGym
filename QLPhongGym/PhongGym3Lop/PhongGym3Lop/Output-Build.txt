@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: PhongGym3Lop, Configuration: Debug Any CPU ------
+1>D:\New folder\PhongGym3Lop\PhongGym3Lop\Form1.cs(67,17,67,22): error CS0246: The type or namespace name 'fMain' could not be found (are you missing a using directive or an assembly reference?)
+1>D:\New folder\PhongGym3Lop\PhongGym3Lop\Form1.cs(67,32,67,37): error CS0246: The type or namespace name 'fMain' could not be found (are you missing a using directive or an assembly reference?)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

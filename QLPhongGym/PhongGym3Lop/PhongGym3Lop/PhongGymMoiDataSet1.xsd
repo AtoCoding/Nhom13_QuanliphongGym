@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PhongGymMoiDataSet1" targetNamespace="http://tempuri.org/PhongGymMoiDataSet1.xsd" xmlns:mstns="http://tempuri.org/PhongGymMoiDataSet1.xsd" xmlns="http://tempuri.org/PhongGymMoiDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PhongGymMoiConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PhongGymMoiConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PhongGym3Lop.Properties.Settings.GlobalReference.Default.PhongGymMoiConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PhongGymMoiConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PhongGymMoiConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PhongGym3Lop.Properties.Settings.GlobalReference.Default.PhongGymMoiConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PhongGymMoiConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PhongGymMoiConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PhongGym3Lop.Properties.Settings.GlobalReference.Default.PhongGymMoiConnectionString2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_HoaDonTableAdapter" GeneratorDataComponentClassName="View_HoaDonTableAdapter" Name="View_HoaDon" UserDataComponentName="View_HoaDonTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PhongGymMoiConnectionString2 (Settings)" DbObjectName="PhongGymMoi.dbo.View_HoaDon" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_hd, id_sp, ten, soluong, dongia, ngayin, id_kh, hoten, id_nv, DoanhSo FROM dbo.View_HoaDon</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_hd" DataSetColumn="id_hd" />
+              <Mapping SourceColumn="id_sp" DataSetColumn="id_sp" />
+              <Mapping SourceColumn="ten" DataSetColumn="ten" />
+              <Mapping SourceColumn="soluong" DataSetColumn="soluong" />
+              <Mapping SourceColumn="dongia" DataSetColumn="dongia" />
+              <Mapping SourceColumn="ngayin" DataSetColumn="ngayin" />
+              <Mapping SourceColumn="id_kh" DataSetColumn="id_kh" />
+              <Mapping SourceColumn="hoten" DataSetColumn="hoten" />
+              <Mapping SourceColumn="id_nv" DataSetColumn="id_nv" />
+              <Mapping SourceColumn="DoanhSo" DataSetColumn="DoanhSo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PhongGymMoiDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PhongGymMoiDataSet1" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="PhongGymMoiDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_HoaDon" msprop:Generator_RowEvHandlerName="View_HoaDonRowChangeEventHandler" msprop:Generator_RowDeletedName="View_HoaDonRowDeleted" msprop:Generator_RowDeletingName="View_HoaDonRowDeleting" msprop:Generator_RowEvArgName="View_HoaDonRowChangeEvent" msprop:Generator_TablePropName="View_HoaDon" msprop:Generator_RowChangedName="View_HoaDonRowChanged" msprop:Generator_RowChangingName="View_HoaDonRowChanging" msprop:Generator_TableClassName="View_HoaDonDataTable" msprop:Generator_RowClassName="View_HoaDonRow" msprop:Generator_TableVarName="tableView_HoaDon" msprop:Generator_UserTableName="View_HoaDon">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_hd" msprop:Generator_ColumnPropNameInRow="id_hd" msprop:Generator_ColumnPropNameInTable="id_hdColumn" msprop:Generator_ColumnVarNameInTable="columnid_hd" msprop:Generator_UserColumnName="id_hd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_sp" msprop:Generator_ColumnPropNameInRow="id_sp" msprop:Generator_ColumnPropNameInTable="id_spColumn" msprop:Generator_ColumnVarNameInTable="columnid_sp" msprop:Generator_UserColumnName="id_sp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ten" msprop:Generator_ColumnPropNameInRow="ten" msprop:Generator_ColumnPropNameInTable="tenColumn" msprop:Generator_ColumnVarNameInTable="columnten" msprop:Generator_UserColumnName="ten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="soluong" msprop:Generator_ColumnPropNameInRow="soluong" msprop:Generator_ColumnPropNameInTable="soluongColumn" msprop:Generator_ColumnVarNameInTable="columnsoluong" msprop:Generator_UserColumnName="soluong" type="xs:int" minOccurs="0" />
+              <xs:element name="dongia" msprop:Generator_ColumnPropNameInRow="dongia" msprop:Generator_ColumnPropNameInTable="dongiaColumn" msprop:Generator_ColumnVarNameInTable="columndongia" msprop:Generator_UserColumnName="dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngayin" msprop:Generator_ColumnPropNameInRow="ngayin" msprop:Generator_ColumnPropNameInTable="ngayinColumn" msprop:Generator_ColumnVarNameInTable="columnngayin" msprop:Generator_UserColumnName="ngayin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="id_kh" msprop:Generator_ColumnPropNameInRow="id_kh" msprop:Generator_ColumnPropNameInTable="id_khColumn" msprop:Generator_ColumnVarNameInTable="columnid_kh" msprop:Generator_UserColumnName="id_kh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hoten" msprop:Generator_ColumnPropNameInRow="hoten" msprop:Generator_ColumnPropNameInTable="hotenColumn" msprop:Generator_ColumnVarNameInTable="columnhoten" msprop:Generator_UserColumnName="hoten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_nv" msprop:Generator_ColumnPropNameInRow="id_nv" msprop:Generator_ColumnPropNameInTable="id_nvColumn" msprop:Generator_ColumnVarNameInTable="columnid_nv" msprop:Generator_UserColumnName="id_nv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoanhSo" msprop:Generator_ColumnPropNameInRow="DoanhSo" msprop:Generator_ColumnPropNameInTable="DoanhSoColumn" msprop:Generator_ColumnVarNameInTable="columnDoanhSo" msprop:Generator_UserColumnName="DoanhSo" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:View_HoaDon" />
+      <xs:field xpath="mstns:id_hd" />
+      <xs:field xpath="mstns:id_sp" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
